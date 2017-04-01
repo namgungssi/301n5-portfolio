@@ -1,6 +1,3 @@
-.{
-  border-width: thin;
-  border-spacing: 2px;
-  border-style: none;
-  border-color: black;
-}
+*{
+    border: Solid black 1px;
+};
