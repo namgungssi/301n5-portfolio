@@ -1,4 +1,12 @@
 *{
     border: Solid black 1px;
     text-align: center;
+    padding: 10px;
+    background-color: ivory;
+    font-family: impact;
+    line-height: 200%;
 };
+
+img {
+  max-width: 100%;
+}
