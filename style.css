@@ -1,24 +1,34 @@
 *{
     border: Solid black 1px;
     text-align: center;
-    padding: 1.5em;
     background-color: ivory;
-    line-height: 180%;
-    padding: 0.8em;
+    line-height: 150%;
+    padding: 0.75em;
     list-style: none;
 };
-
-/*img {
-  max-width: 100%;
-  max-height: 100%;
-}*/
 
 *.#borat {
   width: 15em;
   height: 10em;
 }
 
-.portrait {
+#box{
+  width: 10em;
+  height: 9.5em;
+  border: none;
+  filter: contrast(1.1);
+  padding: 0;
+}
+
+img.portrait{
+    border: none;
+}
+
+a#box:hover{
+  background-color: transparent;
+}
+
+.portrait.* {
   width: 10em;
   height: 9.5em;
   border: none;
@@ -26,18 +36,10 @@
   padding: 0;
 }
 .portrait:hover {
-    background-color: #f9ce9f;
+    background-color: transparent;
     transition: 0.5s ease;
-
+    border: none;
 }
-
-/*#hideThis{
-  width: 13em;
-  height: 12.3em;
-  border: none;
-
-  background-color: inherit;
-}*/
 
 .btn {
   transition: .55s ease;
@@ -68,12 +70,12 @@
   background-size: cover;
   background-position: center;
   opacity: 0.55;
-  padding-top: 5em;
-
+  padding-bottom: 5em;
 }
 
 #seattle:hover {
-    background-color: #f9ce9f;
     transition: 0.5s ease;
     opacity: 1;
+    background-size: cover;
+    border: none;
 }
