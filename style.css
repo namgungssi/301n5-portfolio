@@ -9,3 +9,8 @@
 img {
   max-width: 100%;
 }
+
+*.#borat {
+  width: 15em;
+  height: 10em;
+}
