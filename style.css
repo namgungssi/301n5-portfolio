@@ -1,0 +1,81 @@
+*{
+    border: Solid black 1px;
+    text-align: center;
+    background-color: ivory;
+    line-height: 150%;
+    padding: 0.75em;
+    list-style: none;
+};
+
+*.#borat {
+  width: 15em;
+  height: 10em;
+}
+
+#box{
+  width: 10em;
+  height: 9.5em;
+  border: none;
+  filter: contrast(1.1);
+  padding: 0;
+}
+
+img.portrait{
+    border: none;
+}
+
+a#box:hover{
+  background-color: transparent;
+}
+
+.portrait.* {
+  width: 10em;
+  height: 9.5em;
+  border: none;
+  filter: contrast(1.1);
+  padding: 0;
+}
+.portrait:hover {
+    background-color: transparent;
+    transition: 0.5s ease;
+    border: none;
+}
+
+.btn {
+  transition: .55s ease;
+  opacity: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  max-width: 9em;
+  max-height: 3em;
+  bottom: 0;
+}
+
+#front-face:hover .btn {
+  transition: 0.45s ease;
+  opacity: 0.7;
+  padding: 0.05em;
+}
+#front-face{
+  position: relative;
+  bottom: 0;
+  padding: 0.1em;
+}
+
+#seattle{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/09/Sunset_seattle.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.55;
+  padding-bottom: 5em;
+}
+
+#seattle:hover {
+    transition: 0.5s ease;
+    opacity: 1;
+    background-size: cover;
+    border: none;
+}
