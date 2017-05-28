@@ -7,7 +7,7 @@
     list-style: none;
     font-family: impact;
     font-style: italic;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF	;
 };
 
 body{
@@ -88,6 +88,7 @@ a#box:hover{
   max-width: 9em;
   max-height: 3em;
   bottom: 0;
+  font-size: 30px;
 }
 
 #front-face:hover .btn {
